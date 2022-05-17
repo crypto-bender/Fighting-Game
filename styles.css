@@ -1,3 +1,7 @@
 *{
   box-sizing: border-box;
 }
+
+#endMessage {
+  text-size-adjust: 800;
+}

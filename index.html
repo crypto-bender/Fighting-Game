@@ -12,19 +12,22 @@
 </head>
 <body>
   <div style="position: relative; display: inline-block;">
-    <div style="position: absolute; display: flex; align-items: center; width: 100%; padding: 20px">
-      <div style="position: relative; height: 30px; width: 100%;">
-        <div style="background-color: yellow; height: 30px;"></div>
-        <div id="playerHealth" style="position: absolute; background-color: blue; top: 0; right: 0; bottom: 0; left: 0;"></div>
+    <div style="position: absolute; display: flex; align-items: center; width: 100%; padding: 20 px">
+      <div style="position: relative; width: 100%;  display: flex; justify-content: flex-end; border-left: 3px solid black; border-bottom: 3px solid black; border-top: 3px solid black">
+        <div style="background-color: red; height: 30px; width: 100%;"></div>
+        <div id="playerHealth" style="position: absolute; background-color: yellow; top: 0; right: 0; bottom: 0; width: 100%"></div>
       </div>
-      <div id="timer" style="background-color: red; height: 100px; width: 100px; flex-shrink: 0;"></div>
-      <div style="position: relative; height: 30px; width: 100%;">
-        <div style="background-color: yellow; height: 30px;"></div>
-        <div id="enemyHealth" style="position: absolute; background-color: blue; top: 0; right: 0; bottom: 0; left: 0;"></div>
+      <div id="timer" style="background-color: grey; height: 50px; width: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; border: 3px solid black">10</div>
+      <div style="position: relative; width: 100%; border-top: 3px solid black; border-right: 3px solid black; border-bottom: 3px solid black">
+        <div style="background-color: red; height: 30px;"></div>
+        <div id="enemyHealth" style="position: absolute; background-color: green; top: 0; right: 0; bottom: 0; left: 0;"></div>
       </div>
     </div>
+    <div id="endMessage" style="position: absolute; color: white; display: none; align-items: center; justify-content: center; top: 0; right: 0; bottom: 0; left: 0; font-size: 100px;">Tie</div>
     <canvas></canvas>
   </div>
+  <script src="js/utils.js"></script>
+  <script src="js/classes.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
