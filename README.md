@@ -1,5 +1,7 @@
 # Fighting-Game
 
+credit to Chris Courses on Youtube: https://youtu.be/vyqbNFMDRGQ
+
 If you want to play the game as is, make sure you download all the files and folders.
 
 Left fighter hitbox is slightly larger and has a 2 frame delay compared to right fighter. Right fighter moves slightly faster as well. 
